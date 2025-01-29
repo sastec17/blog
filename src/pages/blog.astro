@@ -1,0 +1,16 @@
+---
+import BlogLayout from "../layouts/BlogLayout.astro"
+import PostPreview from "../components/PostPreview.astro";
+const pageTitle="All Posts";
+const allPosts = Object.values(import.meta.glob('./posts/*/*.md', { eager: true }));
+
+---
+<BlogLayout pageTitle={pageTitle}>
+    Blog Page
+    {allPosts.map((post: any) => 
+    <PostPreview 
+        url={post.url}
+        title={post.frontmatter.title} 
+        description={post.frontmatter.description}
+    />)}
+</BlogLayout>

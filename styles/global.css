@@ -1,0 +1,30 @@
+html {
+    background-color: var(--background-color);
+    color: var(--opp-color);
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+    margin-bottom: 80px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.body,
+.page {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+:root {
+    --text-color: #7400CC; /* Light mode */
+    --background-color: #F5F5F5;
+    --opp-color: #282828;
+  }
+  
+.dark {
+    --text-color: white; /* Dark mode */
+    --background-color: black; 
+    --opp-color: #F5F5F5;
+}
