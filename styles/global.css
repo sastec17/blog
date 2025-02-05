@@ -15,6 +15,31 @@ html {
 
 h1 {
     font-size: 4em;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin: 0 0;
+}
+
+p {
+    margin: 8px 0;
+}
+
+img {
+    min-height: 30vh;
+    width: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    width: 70%;
+    margin: 16px;
+    justify-content: center;
 }
 
 :root {
