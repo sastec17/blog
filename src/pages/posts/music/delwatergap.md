@@ -8,8 +8,10 @@ tags: ["Pop", "Pine Knob", "Music"]
 ---
 ![image info](../../../../public/music/delwatergap/dollhouse.png)
 
-
-TODO - Insert overview of concert here: Place / conditions/ vibes/ etc.
+Things to mention:
+* Rain
+* Crowd clearly wasn't there for Del Water Gap - no attention to Cruel Summer
+* Del Water Gap sounded great - short setlist but hit his major tunes
 
 ## Standout Songs:
 1. Ode to a Conversation Stuck in your Throat

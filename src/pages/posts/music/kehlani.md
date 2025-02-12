@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'Kehlani'
-pubDate: 2024-03-23
+title: 'Kehlani adjusts concert expectations'
+pubDate: 2024-09-10
 description: 'By far the best concert I have ever attended'
 author: 'stecdawg'
 tags: ["R&B", "Music"]
