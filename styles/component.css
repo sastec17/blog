@@ -15,7 +15,8 @@
     gap: 1em;
     z-index: 1;
     width: 100%;
-    background-color: var(--background-color);
+    background-color: var(--accent-color);
+    padding: 10px 0px;
 }
 
 .nav-links {
@@ -23,14 +24,18 @@
     text-decoration: none;
     font-size: 1.2em;
     color: var(--opp-color);
-    font-weight: bold;
+    font-weight: 400;
     padding: 10px 0;
 }
 
 .nav-links:hover,
 .nav-links:focus {
     text-decoration: underline;
-    color: var(--text-color);
+    color: var(--opp-color);
+}
+
+.navbar-mobile {
+    display: none;
 }
 
 /* social media footer */
@@ -107,34 +112,69 @@
 /* post previews */
 .post-container {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 80%;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
-.post-previews {
+
+.post {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: calc(26% - 20px);
+    box-sizing: border-box; 
+    padding: 16px;
+    border: 1px solid var(--opp-color); 
+    border-radius: 8px;
+    position: relative;
     text-decoration: none;
     color: var(--opp-color);
+}
+
+.post-previews {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    text-decoration: none;
+    color: var(--opp-color);
+}
+
+.post-previews img {
     width: 100%;
-    text-align: left;
+    height: auto !important;
 }
 
 .post-previews a {
     display: block;
 }
 
+.post-previews div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
 /* tags */
 .tags {
     display: flex;
     justify-content: center;
-    gap: 2em;
-    margin: 16px 0px;
+    gap: 1.2em;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 16px auto;
 }
 
 .tag {
-    background-color:var(--opp-color);
-    color: var(--background-color);
-    border-radius: 10%;
+    background-color:var(--accent-color);
+    color: var(--opp-color);
+    border: 1px solid var(--opp-color); 
+    border-radius: 40%;
     font-weight: 400;
-    padding: 5px 8px;
+    padding: 8px 6px;
+    margin: 0px 0px;
+}
+
+#inputField {
+    outline: none;
 }

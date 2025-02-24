@@ -1,7 +1,44 @@
 @media only screen and (max-width: 768px)  {
     h1 {
-        font-size: 2.5em;
+        font-size: 3em;
     }
+
+    body {
+        margin-top: 3vh;
+    }
+
+    /* navbar */
+    .navbar-desktop {
+        display: none;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+        padding: 10px 0;
+        margin: 1em;
+    }
+
+    .nav-mobile {
+        position: fixed;
+        visibility: hidden;
+        opacity: 0; 
+        transform: translateX(-100%);
+        transition: all 0.3s ease;
+        width: 100%;
+        background: var(--background-color);
+        z-index: 1; 
+        top: 100px;
+        right: 10px;
+        width: 150px;
+        border: solid;
+        border-color: var(--opp-color);
+        border-width: 1px;
+    }
+
     /* about page */
     .about-content {
         display: none;
@@ -14,5 +51,13 @@
     .banner-container img {
         width: 100%;
         min-height: 60vh;
+    }
+
+    .post {
+        width: calc(48% - 5px);
+    }
+
+    .post-container {
+        gap:10px;
     }
 }
