@@ -4,9 +4,12 @@ title: 'Weird Vibes at Alec Benjamin'
 pubDate: 2024-10-07
 description: 'We said hi to Alec before the concert! Eek!'
 author: 'the boy in the bubble'
+image:
+    url: '/music/alec/acoustic.png'
+    alt: 'Alec Benjamin performing'
 tags: ["Pop", "Fillmore", "Music"]
 ---
-![image info](../../../../public/music/alec/acoustic.png)
+![image info](/music/alec/acoustic.png)
 
 ## Synopsis:
 

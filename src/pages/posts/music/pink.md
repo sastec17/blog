@@ -2,11 +2,14 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'P!nk FLEW!'
 pubDate: 2024-10-07
-description: ''
+description: 'Insert some wild description about P!nk here'
 author: 'sstec'
+image:
+    url: '/music/alec/acoustic.png'
+    alt: 'Alec Benjamin performing'
 tags: ["Pop", "LCA", "Music"]
 ---
-![image info](../../../../public/music/alec/acoustic.png)
+![image info](/music/alec/acoustic.png)
 
 ## Synopsis:
 Things to mention: 

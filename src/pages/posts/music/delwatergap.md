@@ -4,9 +4,12 @@ title: 'Staying Dry at Del Water Gap'
 pubDate: 2024-03-23
 description: 'An explosive performance by Del Water Gap'
 author: 'music enthusiast'
+image:
+    url: '/music/delwatergap/dollhouse.png'
+    alt: 'Del Water Gap performing'
 tags: ["Pop", "Pine Knob", "Music"]
 ---
-![image info](../../../../public/music/delwatergap/dollhouse.png)
+![image info](/music/delwatergap/dollhouse.png)
 
 Things to mention:
 * Rain

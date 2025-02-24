@@ -1,12 +1,15 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'Billie Eilish'
+title: 'An Expensive Evening with Eilish'
 pubDate: 2024-10-07
-description: 'A raw performance with depth'
+description: 'A raw performance with depth insert more of '
 author: 's.stec'
+image:
+    url: '/music/billie/greenlight.png'
+    alt: 'Billie Eilish performing'
 tags: ["Pop", "LCA", "Music"]
 ---
-![image info](../../../../public/music/billie/greenlight.png)
+![image info](/music/billie/greenlight.png)
 
 ## Synopsis:
 

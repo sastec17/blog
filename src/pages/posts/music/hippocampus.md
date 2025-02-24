@@ -4,9 +4,12 @@ title: 'Hippo Campus feat. Mei Semones'
 pubDate: 2024-03-23
 description: 'A shockingly good concert'
 author: 'stecdawg'
+image:
+    url: '/music/alec/acoustic.png'
+    alt: 'Alec Benjamin performing'
 tags: ["Rock", "Indie", "Music"]
 ---
-![image info](../../../../public/music/rodrigo/gethimback.png)
+![image info](/music/rodrigo/gethimback.png)
 
 ## Synopsis:
 This was by far the smoothest concert I've ever experienced. This fairy tale concert began with zero traffic, $12 parking, and no line wrapped around the Fillmore waiting to get in. If that wasn't enough, our nose-bleed seats in the upper balcony were closed, so we were moved to front row in the Loge!!! Wee ended up with an unobstructed, birds-eye view of the entire stage - and tickets were only $20!
