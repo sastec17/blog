@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'Rodrigo Rocks!'
+title: "Rodrigo's Got Guts"
 pubDate: 2024-03-23
 description: 'Olivia Rodrigo shakes her classic Disney image at LCA on Friday night.'
 author: 'stecdawg'
@@ -16,7 +16,6 @@ What a fantastic way to kick off the year! Olivia Rodrigo AND Chappell Roan for 
 Chappell opened this concert guns-a-blazin'! It was clear about 15% of the audience had pulled up for the opener, yet they delivered the same energy as a packed stadium. Although I was unfamiliar with Chappell at the time, I was immediately struck by the bluntness of her lyrics and her freedom of self-expression. Her songs were also packed with fascinating chord progressions that had me itching to learn more. I look forward to seeing what the budding Chappell Roan will accomplish in the next year.
 
 ### Olivia Rodrigo:
-![image info](/music/rodrigo/gethimback.png)
 ![image info](/music/rodrigo/logical.png)
 
 I honestly had low expectations coming into Olivia Rodrigo - She was a breakout Disney star with a few decent albums - But Olivia quickly shattered any prior expectations and quickly established herself as a talented performer. Not only did she sound great live - she also danced and conversed with the audience. Rodrigo even had a great mix of upbeat and acoustic songs, bringing the audience on an emotional roller coaster with grace.  

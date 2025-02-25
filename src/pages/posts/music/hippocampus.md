@@ -1,13 +1,13 @@
 ---
 layout: ../../../layouts/PostLayout.astro
 title: 'Hippo Campus feat. Mei Semones'
-pubDate: 2024-03-23
+pubDate: 2025-02-11
 description: 'A shockingly good concert'
 author: 'stecdawg'
 image:
     url: '/music/alec/acoustic.png'
-    alt: 'Alec Benjamin performing'
-tags: ["Rock", "Indie", "Music"]
+    alt: 'Hippo campus performing'
+tags: ["Rock", "Indie", "Fillmore"]
 ---
 ![image info](/music/rodrigo/gethimback.png)
 

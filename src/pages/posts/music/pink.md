@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/PostLayout.astro
 title: 'P!nk FLEW!'
-pubDate: 2024-10-07
+pubDate: 2024-10-15
 description: 'Insert some wild description about P!nk here'
 author: 'sstec'
 image:
@@ -18,6 +18,7 @@ Things to mention:
 * Singing turbulence while half upside down
 
 ## Standout Songs:
-1. **Turbulence** 
-2. **Etc etc**
-3. **etc etc**
+1. **Who Knew** 
+2. **Make you feel my love (Adele cover)**
+3. **Turbulence**
+3. **So What**

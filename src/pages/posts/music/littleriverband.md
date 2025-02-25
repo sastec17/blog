@@ -1,15 +1,15 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'Weird Vibes at Alec Benjamin'
-pubDate: 2024-10-03
+title: 'Reminiscing with Little River Band'
+pubDate: 2024-10-05
 description: 'We said hi to Alec before the concert! Eek!'
 author: 'the boy in the bubble'
 image:
-    url: '/music/alec/acoustic.png'
-    alt: 'Alec Benjamin performing'
-tags: ["Pop", "Fillmore"]
+    url: '/music/lrb/lrb.png'
+    alt: 'Little River Band performing'
+tags: ["Pop", "Music"]
 ---
-![image info](/music/alec/acoustic.png)
+![image info](/music/lrb/lrb.png)
 
 ## Synopsis:
 
@@ -19,6 +19,6 @@ Things to mention:
 * Alec was more relaxed / in his element than first concert
 
 ## Standout Songs:
-1. **I sent my therapist to therapy** 
-2. **I built a friend**
-3. **Boy in the Bubble**
+1. **Lonesome Loser** 
+2. **Reminiscing**
+3. **Lady**
