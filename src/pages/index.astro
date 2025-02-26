@@ -1,39 +1,46 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro"
-import Footer from "../components/Footer.astro"
+import BlogLayout from "../layouts/BlogLayout.astro"
+import PostPreview from "../components/PostPreview.astro";
+const pageTitle="Nosebleed Nation";
+const allPosts = Object.values(import.meta.glob('./posts/music/*.md', { eager: true }));
+const tags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
 
-const about_me_arr = [
-	"Drop in About the author info here :p",
-	"what it dooooo",
-	"testing testing 123"
-]
+allPosts.sort((a:any, b:any) => {
+    return new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime();
+})
 ---
-<BaseLayout>
-	<div class="center-all page">
-		<h1 id="about-title">Stec's Blog</h1>
-		<h2>A sneak peak into the life of Sarah</h2>
-		<div class="banner-container">
-			<img src="/background.png" alt="Music and book collage">
-			<a href="/blog">Go to blog</a>	
-		  </div>
-	</div>
-	{/* About me */}
-	<div class="center-all about-section">
-		<h2>Meet the author...</h2>
-		<h1 id="name">Sarah Stec</h1>
-		<div class="about-content">
-			<div>
-				{about_me_arr.map((text) => <p>{text}</p>)}
-			</div>
-			<img src="/bighouse.JPG"/>
-		</div>
+<BlogLayout pageTitle={pageTitle} posts={allPosts}>
+    <h2 style="margin-bottom: 16px;">Live music & loud memories</h2>
+    { /* TODO - Hook up search bar to filter data */ }
+    <div>
+        <input
+            id="inputField"
+            style="display: block; margin: 0 auto;" 
+            placeholder="Enter keyword(s) here..." 
+            aria-label="Search bar to filter posts"/>
+    </div>
 
-		<div class="mobile-about-content">
-			<img src="/bighouse.JPG"/>
-			<div>
-				{about_me_arr.map((text) => <p>{text}</p>)}
-			</div>
-		</div>
-	</div>
-	<Footer />
-</BaseLayout>
+    {/* tags associated with all posts */}
+    {/* TODO - Put main category tags in top row */}
+    <div class="tags">
+        {tags.map((tag) => (
+            <button data-tag={tag} class="tag">{tag}</button>
+        ))}
+    </div>
+    <div class="post-container">
+        {allPosts.map((post: any) => 
+            <div class="post" data-tags={post.frontmatter.tags.join(',')} 
+                              data-context={post.frontmatter.description}
+                              data-title={post.frontmatter.title}>
+                <PostPreview 
+                    url={post.url}
+                    title={post.frontmatter.title} 
+                    description={post.frontmatter.description}
+                    pubDate={post.frontmatter.pubDate}
+                    imageURL={post.frontmatter.image.url}
+                    altText={post.frontmatter.image.alt}
+                />
+            </div>
+        )}
+    </div>
+</BlogLayout>

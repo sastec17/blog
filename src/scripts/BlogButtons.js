@@ -1,10 +1,8 @@
 let selectedButton = null; // Track the currently selected button
 
 function filterPosts(tag) {
-    console.log('sup')
     document.querySelectorAll('.post').forEach(post => {
         const tags = post.dataset.tags.split(",");
-        console.log(tags)
 
         if (!tag || tags.includes(tag)) {
             post.style.display = "block";
@@ -18,17 +16,18 @@ function filterPosts(tag) {
 // TODO - Add filtering of posts
 document.querySelectorAll('.tags button').forEach(button => {
     button.addEventListener('click', function () {
+        // update color of selected/deselected tags
         if (this === selectedButton) {
-            this.style.backgroundColor = "#000000";
+            this.style.backgroundColor = 'var(--accent-color)';
             selectedButton = null;
         } else {
             if (selectedButton) {
-                selectedButton.style.backgroundColor = "#000000";
+                selectedButton.style.backgroundColor = 'var(--accent-color)';
             }
-            this.style.backgroundColor = "#8e2740";
+            this.style.backgroundColor = 'var(--background-color)';
             selectedButton = this;
         }
-        // update visibility to just selectedButton tag
+        // update visibility of posts to just selectedButton tag
         const tag = (selectedButton) ? selectedButton.dataset.tag : null; 
         filterPosts(tag);
     });

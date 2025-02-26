@@ -1,5 +1,5 @@
 ---
-const {url, title, description, pubDate, imageURL} = Astro.props
+const {url, title, description, pubDate, imageURL, altText} = Astro.props
 
 const formattedDate = new Date(pubDate).toLocaleDateString('en-US', {
     year: 'numeric',
@@ -8,10 +8,12 @@ const formattedDate = new Date(pubDate).toLocaleDateString('en-US', {
 })
 ---
 <a class="post-previews" href={url}>
-    <h2>{title}</h2>
-        <time datetime={pubDate}>{formattedDate}</time>
-        <div>
-        <img src={imageURL}>
+    <div class="h2-container">
+        <h2>{title}</h2>
+    </div>
+    <time datetime={pubDate}>{formattedDate}</time>
+    <div class="post-content">
+        <img src={imageURL} alt={altText}>
         <p>{description}</p>
     </div>
 </a>

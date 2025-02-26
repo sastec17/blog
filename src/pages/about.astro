@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import Footer from "../components/Footer.astro"
+
+const about_me_arr = [
+	"Hey! I'm Sarah, and I'm an avid concertgoer. I attended 10 concerts in 2024 and aim top that this year!",
+	"I have a deep appreciation for all forms of musical excellence - performance, composition, improvisation - rooted in my own musical upbringing.",
+	"I played clarinet through middle & high school, which gave me a love for orchestral pieces. In high school, I picked up guitar, which built my confidence in improvisation. But most notably, I’ve been playing piano since age 6. After 12 years of private lessons and countless hours of practice, I not only fell in love with the instrument, but also with the beautiful complexity of music theory.",
+	"Although I pursued a collegiate education in computer science, music is still my favorite hobby. I improvise almost daily and jump at any opportunity to experience music in-person. After all, the only thing better than music is, well - live music.",
+	"This mini-blog is a fun, creative outlet for me to practice my frontend design skills and a way to share my passion for music. Hope you enjoy!"
+]
+---
+<BaseLayout>
+	{/* About me */}
+	<div class="page center-all about-section">
+		<h2>Meet the author...</h2>
+		<h1 id="name">Sarah Stec</h1>
+		<div class="about-content">
+			<div>
+				{about_me_arr.map((text) => <p>{text}</p>)}
+			</div>
+			<img src="/bighouse.JPG"/>
+		</div>
+
+		<div class="mobile-about-content">
+			<img src="/bighouse.JPG"/>
+			<div>
+				{about_me_arr.map((text) => <p>{text}</p>)}
+			</div>
+		</div>
+	</div>
+	<Footer />
+</BaseLayout>

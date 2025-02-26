@@ -2,8 +2,7 @@ html {
     background-color: var(--background-color);
     color: var(--opp-color);
     scroll-behavior: smooth;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 70px;
     font-family: monospace;
 }
 
@@ -26,11 +25,8 @@ h2, h3 {
 }
 
 p {
-    margin: 8px 0;
-}
-
-img {
-
+    margin: 12px 0;
+    font-size: large;
 }
 
 button {
@@ -38,7 +34,8 @@ button {
 }
 
 ul, ol {
-    margin-top: 0px;
+    margin-top: 0px;    
+    font-size: large;
 }
 
 input {
@@ -58,5 +55,5 @@ input {
     --text-color: #F5F5F5; /* Dark mode */
     --background-color: #282828; 
     --opp-color: #F5F5F5;
-    --accent-color: #688D7A;
+    --accent-color: #41584B;
 }

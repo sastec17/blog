@@ -45,12 +45,19 @@
     }
 
     .mobile-about-content {
-        display: block;
-    }
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
 
-    .banner-container img {
-        width: 100%;
-        min-height: 60vh;
+    }
+    .mobile-about-content img {
+        height: auto;
+        width: 50%;
+    }
+    .mobile-about-content div {
+        width: 80%;
     }
 
     .post {

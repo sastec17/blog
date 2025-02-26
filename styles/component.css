@@ -12,11 +12,10 @@
     right: 0;
     display: flex;
     align-items: center;
-    gap: 1em;
     z-index: 1;
     width: 100%;
     background-color: var(--accent-color);
-    padding: 10px 0px;
+    padding: 10px 12px;
 }
 
 .nav-links {
@@ -59,42 +58,21 @@
     margin-bottom: 5px;
 }
 
-.banner-container {
-    position: relative;
-    width: 100%;
-}
-  
-.banner-container img {
-    width: 100%;
-    min-height: 40vh;
-}
-
-.banner-container a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: var(--background-color);
-    color: var(--opp-color);
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
 .about-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    text-align: left;
 }
 
-.about-content img,
-.mobile-about-content img {
-    max-height: 60vh;
-    max-width: 80vw;
+.about-content div {
+    width: 50vw;
+}
+
+.about-content img{
+    height: 65vh;
+    width: auto;
 }
 
 .about-content h1 {
@@ -107,6 +85,28 @@
 
 #name {
     margin: 0px 0px 16px 0px;
+}
+
+.main-container h2,
+.main-container h3 {
+    text-align: left;
+    margin: 8px 0;
+    font-weight: 600;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.main-container img {
+    width: 33vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* post previews */
@@ -148,11 +148,18 @@
     display: block;
 }
 
-.post-previews div {
+.post-content {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     justify-content: flex-end;
+}
+
+.h2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 /* tags */
@@ -169,7 +176,7 @@
     background-color:var(--accent-color);
     color: var(--opp-color);
     border: 1px solid var(--opp-color); 
-    border-radius: 40%;
+    border-radius: 12px;
     font-weight: 400;
     padding: 8px 6px;
     margin: 0px 0px;
@@ -177,4 +184,13 @@
 
 #inputField {
     outline: none;
+    padding: 6px;
+    border: 1px solid var(--opp-color); 
+    border-radius: 10px;
+    background-color: var(--background-color);
+    color: var(--opp-color);
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color: var(--opp-color);
 }

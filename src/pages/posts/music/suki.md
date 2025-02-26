@@ -2,10 +2,10 @@
 layout: ../../../layouts/PostLayout.astro
 title: 'Suki Waterhouse'
 pubDate: 2024-12-17
-description: 'We said hi to Alec before the concert! Eek!'
-author: 'the boy in the bubble'
+description: 'Imagine: hours of standing for a mediocre moment'
+author: 'the OG sparklemuffin'
 image:
-    url: '/music/alec/acoustic.png'
+    url: '/music/cover/suki.png'
     alt: 'Suki Waterhouse performing'
 tags: ["Pop"]
 ---

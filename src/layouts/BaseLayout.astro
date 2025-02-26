@@ -2,19 +2,23 @@
 import '../../styles/global.css'
 import '../../styles/component.css'
 import '../../styles/mobile.css'
+import Navigation from '../components/Navigation.astro'
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script src="https://kit.fontawesome.com/90169b880a.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Stec's Blog</title>
+    <title>Nosebleed Nation</title>
   </head>
   <body>
+    <Navigation />
     <slot />
   </body>
   <script>
     import "../scripts/BlogButtons"
+    import "../scripts/FilterSearch"
   </script>
 </html>

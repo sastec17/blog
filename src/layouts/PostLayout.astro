@@ -3,18 +3,17 @@ import BlogLayout from "./BlogLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 <BlogLayout>
-    
-    <h1>{frontmatter.title}</h1>
-    <div class="center-all">
-      <p><em>{frontmatter.description}</em></p>
-      <p>Written by: {frontmatter.author}</p>
-    </div>
-    <div class="tags">
-        {frontmatter.tags.map((tag: string) => (
-          <p class="tag">{tag}</p>
-        ))}
-    </div>
-    <div class="post-container">
+  <div class="main-container">
+      <h1>{frontmatter.title}</h1>
+      <div class="center-all">
+        <p><em>{frontmatter.description}</em></p>
+        <p>Written by: {frontmatter.author}</p>
+      </div>
+      <div class="tags">
+          {frontmatter.tags.map((tag: string) => (
+            <p class="tag">{tag}</p>
+          ))}
+      </div>
       <slot />
     </div>
 </BlogLayout>
