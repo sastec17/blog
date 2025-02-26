@@ -5,11 +5,11 @@ pubDate: 2025-02-11
 description: 'Seating upgrades AND a light show. Hell yeah!'
 author: 'stecdawg'
 image:
-    url: '/music/cover/hippocampus.png'
+    url: '/blog/music/cover/hippocampus.png'
     alt: 'Hippo campus performing'
 tags: ["Rock", "Indie", "Fillmore"]
 ---
-![image info](/music/cover/hippocampus.png)
+![image info](/blog/music/cover/hippocampus.png)
 
 ## Synopsis:
 This was by far the smoothest concert I've ever experienced. This fairy tale concert began with zero traffic, $12 parking, and no line wrapped around the Fillmore waiting to get in. If that wasn't enough, our nose-bleed seats in the upper balcony were closed, so we were moved to front row in the Loge!!! Wee ended up with an unobstructed, birds-eye view of the entire stage - and tickets were only $20!

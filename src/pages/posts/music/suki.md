@@ -5,7 +5,7 @@ pubDate: 2024-12-17
 description: 'Imagine: hours of standing for a mediocre moment'
 author: 'the OG sparklemuffin'
 image:
-    url: '/music/cover/suki.png'
+    url: '/blog/music/cover/suki.png'
     alt: 'Suki Waterhouse performing'
 tags: ["Pop"]
 ---

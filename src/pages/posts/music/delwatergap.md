@@ -5,11 +5,11 @@ pubDate: 2024-07-10
 description: 'An honest and charismatic performance - The opener stole the show.'
 author: 'music enthusiast'
 image:
-    url: '/music/delwatergap/dollhouse.png'
+    url: '/blog/music/delwatergap/dollhouse.png'
     alt: 'Del Water Gap performing'
 tags: ["Pop", "Pine Knob"]
 ---
-![image info](/music/delwatergap/dollhouse.png)
+![image info](/blog/music/delwatergap/dollhouse.png)
 
 ## Synopsis:
 

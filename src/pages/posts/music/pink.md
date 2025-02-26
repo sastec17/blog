@@ -5,11 +5,11 @@ pubDate: 2024-10-15
 description: 'EVERY song felt like an encoure - Buy your P!nk tickets ASAP'
 author: 'sstec'
 image:
-    url: '/music/pink/harness.png'
+    url: '/blog/music/pink/harness.png'
     alt: 'P!nk performing the So What encore'
 tags: ["Pop", "LCA", "Music"]
 ---
-![image info](/music/pink/harness.png)
+![image info](/blog/music/pink/harness.png)
 
 ## Synopsis:
 Things to mention: 

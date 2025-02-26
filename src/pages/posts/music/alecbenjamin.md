@@ -5,11 +5,11 @@ pubDate: 2024-10-03
 description: 'We said hi to Alec before the concert! Eek!'
 author: 'the boy in the bubble'
 image:
-    url: '/music/alec/acoustic.png'
+    url: '/blog/music/alec/acoustic.png'
     alt: 'Alec Benjamin performing'
 tags: ["Pop", "Fillmore"]
 ---
-![image info](/music/alec/acoustic.png)
+![image info](/blog/music/alec/acoustic.png)
 
 ## Synopsis:
 
@@ -19,6 +19,6 @@ Things to mention:
 * Alec was more relaxed / in his element than first concert
 
 ## Standout Songs:
-1. **I sent my therapist to therapy** 
-2. **I built a friend**
-3. **Boy in the Bubble**
+1. **I sent my therapist to therapy** - 
+2. **I built a friend** - 
+3. **Boy in the Bubble** - 

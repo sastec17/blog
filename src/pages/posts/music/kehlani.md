@@ -5,11 +5,11 @@ pubDate: 2024-09-10
 description: 'By far the best concert I have ever attended'
 author: 'stecdawg'
 image:
-    url: '/music/kehlani/crash.png'
+    url: '/blog/music/kehlani/crash.png'
     alt: 'Kehlani'
 tags: ["R&B", "Freedom Hill"]
 ---
-![image info](/music/kehlani/crash.png)
+![image info](/blog/music/kehlani/crash.png)
 
 ## Synopsis:
 This was a crazyyyyy experience! I'll spare you the graphic detail, but the 16 hours leading up to this concert involved a nasty stomach bug. Though it was touch-and-go, I opted to rally. BEST decision ever :p
