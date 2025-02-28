@@ -7,7 +7,7 @@ author: 'stecdawg'
 image:
     url: '/blog/music/rodrigo/gethimback.png'
     alt: 'Olivia Rodrigo performing Get Him Back'
-tags: ["Pop", "LCA", "Music"]
+tags: ["Pop", "LCA"]
 ---
 ## Synopsis:
 What a fantastic way to kick off the year! Olivia Rodrigo AND Chappell Roan for $60? Yes, please!

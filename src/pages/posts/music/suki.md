@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/PostLayout.astro
-title: 'Suki Waterhouse'
+title: 'Standing at Suki Waterhouse'
 pubDate: 2024-12-17
 description: 'Imagine: hours of standing for a mediocre moment'
 author: 'the OG sparklemuffin'

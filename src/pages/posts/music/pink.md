@@ -7,7 +7,7 @@ author: 'sstec'
 image:
     url: '/blog/music/pink/harness.png'
     alt: 'P!nk performing the So What encore'
-tags: ["Pop", "LCA", "Music"]
+tags: ["Pop", "LCA"]
 ---
 ![image info](/blog/music/pink/harness.png)
 

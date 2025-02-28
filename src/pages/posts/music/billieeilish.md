@@ -7,7 +7,7 @@ author: 's.stec'
 image:
     url: '/blog/music/billie/greenlight.png'
     alt: 'Billie Eilish performing'
-tags: ["Pop", "LCA", "Music"]
+tags: ["Pop", "LCA"]
 ---
 ![image info](/blog/music/billie/greenlight.png)
 
