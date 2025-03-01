@@ -7,11 +7,14 @@ const social_media = [
 ---
 <div class="social-media">
     {social_media.map((media: any) => 
-        <a href={media.url}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
-                <path d={media.path}/>
-            </svg>
-    </a>
+        <div>
+            <a href={media.url}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                    <path d={media.path}/>
+                </svg>
+                <p class="only-desktop">{media.name}</p>
+            </a>
+        </div>
     )}
 </div>
 
