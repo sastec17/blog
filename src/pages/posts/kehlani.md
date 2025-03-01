@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'Kehlani adjusts concert expectations'
 pubDate: 2024-09-10
 description: 'By far the best concert I have ever attended'

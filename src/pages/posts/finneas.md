@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'FINNEAS sells out the Fillmore'
 pubDate: 2025-02-25
 description: 'A standard, but solid, Tuesday night show'

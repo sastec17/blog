@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'Hippo Campus feat. Mei Semones'
 pubDate: 2025-02-11
 description: 'Seating upgrades AND a light show. Hell yeah!'

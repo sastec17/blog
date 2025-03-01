@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: "Rodrigo's Got Guts"
 pubDate: 2024-03-23
 description: 'Olivia Rodrigo shakes her classic Disney image at LCA on Friday night.'

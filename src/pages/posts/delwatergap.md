@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'Staying Dry at Del Water Gap'
 pubDate: 2024-07-10
 description: 'An honest and charismatic performance - The opener stole the show.'

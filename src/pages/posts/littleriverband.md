@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'Reminiscing with Little River Band'
 pubDate: 2024-10-05
 description: 'Oldies but goodies - A talented group and a tipsy crowd'

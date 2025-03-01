@@ -45,7 +45,7 @@
     background-color: var(--background-color);
     text-align: center;
     width: 100%;
-    margin-top: 5vw;
+    margin-top: 20px;
     margin-bottom: 3vw;
 }
 
@@ -56,6 +56,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 .only-mobile {

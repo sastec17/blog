@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'An Era of Fletcher'
 pubDate: 2024-09-15
 description: 'Community, connection, queers, and an emotional roller coaster'

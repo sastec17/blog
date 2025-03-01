@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'Meet & Greet with Alec Benjamin'
 pubDate: 2024-10-03
 description: 'We said hi to Alec before the concert! Eek!'

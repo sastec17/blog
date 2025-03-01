@@ -2,7 +2,7 @@
 import BlogLayout from "../layouts/BlogLayout.astro"
 import PostPreview from "../components/PostPreview.astro";
 const pageTitle="Nosebleed Nation";
-const allPosts = Object.values(import.meta.glob('./posts/music/*.md', { eager: true }));
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 const tags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
 
 allPosts.sort((a:any, b:any) => {

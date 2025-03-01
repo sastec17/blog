@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/PostLayout.astro
+layout: ../../layouts/PostLayout.astro
 title: 'Memories with Conan Gray'
 pubDate: 2024-09-22
 description: 'An ironically unmemorable night with Mr.Conan.'
