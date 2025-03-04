@@ -2,7 +2,7 @@
 layout: ../../layouts/PostLayout.astro
 title: 'Post Sex Nachos feat. Veaux'
 pubDate: 2025-03-01
-description: 'A standard, but solid, Tuesday night show'
+description: 'Do NOT sleep on random local concerts!'
 author: 'stecdawg'
 image:
     url: '/blog/music/cover/postsexnachos.png'
