@@ -17,10 +17,17 @@ function filterPosts(tag) {
     })
 }
 
+function clearButtons() {
+    document.querySelectorAll('.tags button').forEach(button => {
+        button.style.backgroundColor = 'var(--accent-color)';
+    })
+}
+
 document.getElementById('inputField')
     .addEventListener("input", (event) =>
     {
         const inputValue = event.target.value;
         filterPosts(inputValue);
+        clearButtons();
     }
     )
