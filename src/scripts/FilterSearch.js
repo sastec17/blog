@@ -30,4 +30,4 @@ document.getElementById('inputField')
         filterPosts(inputValue);
         clearButtons();
     }
-    )
+)
